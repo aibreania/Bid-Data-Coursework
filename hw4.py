@@ -126,8 +126,8 @@ def reducer(Input1, Input2):
                     viewer2 = Input1[movies][j]
                     if len(Input2[viewer2]) >= 5:
                         S.add((i,j))
-                        print(viewer, viewer2)
-                        print("test", Input2[viewer], Input2[viewer2])
+                        #print(viewer, viewer2)
+                        #print("test", Input2[viewer], Input2[viewer2])
                         L = helper3(Input2[viewer], Input2[viewer2])
                         if len(L) == 5:
                             D[(i+1,j+1)] = L
